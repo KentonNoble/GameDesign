@@ -1,0 +1,91 @@
+body{
+    margin:0;
+    background-color: #444;
+}
+#gameContainer{
+    width: 480px;
+    height: 320px;
+    margin:auto;
+
+    background-image: url(Images/0.png) ;
+    box-shadow: 0px 10px 7px #333;
+}
+
+#displaySpace{
+    height :32px;
+    width: 480px;
+    margin-bottom: 16px;
+
+    background-color: #333;
+    opacity: .9;
+}
+
+#playerContainer {
+    height: 272px;
+    width: 80px;
+    float:left;
+
+    background-color: #333;
+    opacity: .9;
+}
+
+#battleBoard {
+    height: 272px;
+    width: 240px;
+    margin-left:32px;
+    float: left;
+
+    background-color: #333;
+    opacity: .9;
+}
+
+#awayCreatureSlotContainer {
+    height :80px;
+    width: 240px;
+    margin-top: 48px;
+
+    background-color: #888;
+    opacity: .6;
+}
+
+div.awayCreatureSlot {
+    height: 80px;
+    width: 48px;
+    float: left;
+}
+
+#homeCreatureSlotContainer {
+    height :80px;
+    width: 240px;
+    margin-top: 16px;
+
+    background-color: #888;
+    opacity: .6;
+}
+
+
+div.homeCreatureSlot {
+    height: 80px;
+    width: 48px;
+    float: left;
+
+}
+
+#creatureUnsummonedContainer {
+    height: 272px;
+    width: 96px;
+    float:right;
+
+    background-color: #333;
+    opacity: .9;
+}
+
+div.unsummonedCreatureSlot{
+    height: 16px;
+    width: 80px;
+    margin:16px 0 0 16px;
+
+}
+
+
+
